@@ -32,7 +32,11 @@ h1, h2, h3 {
   border: none;
 }
 
+
+
 .navbar-brand, a{
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
   color: black;
     &:hover{
       opacity: 0.75;
