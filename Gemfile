@@ -31,7 +31,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.4', '>= 4.4.1'
 
 # Use Font Awesome sass gem for adding icons
-gem 'font-awesome-sass', '~> 5.12.0'
+gem "font-awesome-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

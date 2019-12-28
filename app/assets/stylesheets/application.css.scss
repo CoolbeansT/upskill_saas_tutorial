@@ -14,7 +14,8 @@
  *= require_self
  */
 
- 
+@import "font-awesome";
+
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -31,13 +32,12 @@ h1, h2, h3 {
   border: none;
 }
 
-.navbar-brand, .nav-link{
+.navbar-brand, a{
   color: black;
     &:hover{
       opacity: 0.75;
       color: #8200ff;
+      text-decoration: none;
   }
 }
 
-@import "font-awesome-sprockets";
-@import "font-awesome";

@@ -15,7 +15,10 @@
     <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mr-auto">
           <li class="navbar-brand nav-item">
-            <a class="nav-link" href="/"><i class="fas fa-users"></i>DevMatch</a>
+            <%= link_to "/", class: "navbar-brand" do %>
+              <i class="fa fa-group"></i>
+              DevMatch
+            <% end %>
           </li>
         </ul>
     </div>
@@ -23,9 +26,7 @@
     </div>
     <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="about">About</a>
-            </li>
+              <li class="nav-item nav-link"><%= link_to "About", "/about" %></li>
         </ul>
     </div>
 </nav>
